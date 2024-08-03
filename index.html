@@ -3,48 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satya Sai Thota Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Satya Sai Thota</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <link rel="icon" href="https://res.cloudinary.com/nihars3/image/upload/v1695711604/oie_4tJfBuZmsuYT_eafcem.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/logo.png" class="logo" alt="profile">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Contact</a></li>
+    <div class="mass-body">
+        <div class="navbar-section">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid mass-nav pl-5 pr-5">
+                  <img src="https://res.cloudinary.com/nihars3/image/upload/v1695711604/oie_4tJfBuZmsuYT_eafcem.png" class="mass-logo">
+                  <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav anchor">
+                      <a class="nav-link mass-anchor" href="#about">About</a>
+                      <a class="nav-link mass-anchor" href="#courses">projects</a>
+                      <a class="nav-link mass-anchor" href="#workshops">skills</a>
+                      <a class="nav-link mass-anchor" href="#contact">Contact</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="body-section">
+            <div class="container-fluid">
+                <div class="row d-flex flex-row justify-content-center">
+                    <!-- Left Half - Information About Me -->
+                    <div class="col-12 order-1 order-md-1 col-md-6 left-body">
+                        <h1 class="mass-nihar">Thota <span style="color: rgb(57, 211, 57);">Satya Sai</span></h1>
+                        <p class="mass-nihar-para">I'm Sai, a dedicated MERN stack developer with a strong commitment to innovation and continuous learning. As a B.Tech student at SRKR Engineering College, I focus on mastering full-stack web development, particularly in MongoDB, Express.js, React, and Node.js. My passion for coding and problem-solving drives me to create efficient, user-friendly web applications. I enjoy sharing my knowledge and collaborating with fellow tech enthusiasts, always aiming to contribute to and learn from the ever-evolving tech landscape. Let's connect and grow together in this exciting field!</p>
+                    </div>
+                    <!-- Right Half - My Photo -->
+                    <div class="col-12 order-0 order-md-2 col-md-4">
+                        <img src="https://res.cloudinary.com/dcssuwhnn/image/upload/v1722679892/zyq6zymbhbmtcvv714er.png" alt="Dodagatta Nihar" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="what-we-do pt-5" id="about">
+            <div class="container">
+                <h2 class="about-h1">about <span style="color: rgb(57, 211, 57);">me</span></h2>
+                <p class="about-p"> an aspiring backend developer passionate about building scalable web applications. I've worked on projects using the MERN stack, such as a home-food-delivery website and a Medium clone. My key skills include JavaScript, React, Node.js, Express, MongoDB, PostgreSQL. Currently, I'm learning ML. Feel free to reach out for collaboration or job opportunities!
+            </div>
+        </div>
+        <div class="courses-offered" id="courses">
+            <div class="container">
+                <h2 class="text-center about-h1">Projects <span style="color: rgb(57, 211, 57);">offered</span></h2>
+                <div class="row">
+                    <!-- Course 1 -->
+                    <div class="col-12 col-md-6">
+                        <div class="course-card">
+                            <a href="https://github.com/SatyaaaaSai/Medium_Clone" style="text-decoration: none;">
+                                <div>
+                                    <img src="https://res.cloudinary.com/dcssuwhnn/image/upload/v1722681866/adehu3hhfpavmkm0ohps.jpg" alt="Course 1">
+                                    <h3 class="course-title">Daily-Blog <span style="color: rgb(57, 211, 57);"> USING MERN</span></h3>
+                                    <p class="course-p">I developed Food Fire, a home-food-delivery application using the MERN stack, designed to connect users with local restaurants and home chefs. The platform allows users to browse menus and restaurants without an account, while authenticated users can add items to their cart and place orders. The application features user authentication with JWT, a responsive UI built with React, and efficient backend services using Cloudflare Workers and PostgressSQL for database interactions
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Course 2 -->
+                    <div class="col-12 col-md-6">
+                        <div class="course-card">
+                            <a href="https://github.com/SatyaaaaSai/Namaste-React" style="text-decoration: none;">
+                                <div>
+                                    <img src="https://res.cloudinary.com/dcssuwhnn/image/upload/v1722682446/k6lcau4eysvah9thk3fe.jpg" alt="Course 2">
+                                    <h3 class="course-title">Food Fire Application <span style="color: rgb(57, 211, 57);">Using React</span></h3>
+                                    <p class="course-p">I developed Food Fire, a dynamic restaurant application using ParcelJS, ReactJS, Redux, and TailwindCSS. The app seamlessly integrates API data to provide users with restaurant information in under 100 milliseconds. It features a robust search functionality that delivers results within 10 milliseconds. Redux is leveraged for efficient cart management, enhancing the user experience in navigating and managing their selections effortlessly.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="workshops" id="workshops">
+            <div class="container">
+                <h2 class="text-center about-h1"><span style="color: rgb(57, 211, 57);">Technical Skills</span></h2>
+                <a class="d-flex flex-row justify-content-center link-span" target="_blank" href="https://masscoders.notion.site/masscoders/Web-Development-with-MERN-eba16384715f473b95f25ab1ea050bc0">
+                    <div class="text-center">
+                        <img class="course-logo" src="https://cdn-icons-png.flaticon.com/512/2210/2210184.png">
+                    </div>
+                    <p class="pandaga-p text-center">MERN Stack</p>
+                </a>
+                <a class="d-flex flex-row justify-content-center link-span" target="_blank" href="https://masscoders.notion.site/Muppai-rojullo-Python-2f54ed7ca67e4d21a52eb60a3927b9e4?pvs=4"">
+                    <div class="text-center">
+                        <img class="course-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png">
+                    </div>
+                    <p class="pandaga-p text-center">Java</p>
+                </a>
+            </div>
+        </div>
+        <div class="workshops" id="workshops">
+            <div class="container">
+                <h2 class="text-center about-h1">Internship<span>-</span><span style="color: rgb(57, 211, 57);">Henotic Technology</span></h2>
+                <h2 class="text-center" style="font-size: 30px;">Enhanced billing efficiency and customer experience using Java Swing, AWT, and Queue Data Structure; developed new features, increasing user engagement by 15%.<span style="color: rgb(57, 211, 57);"></span></h2>
+            </div>
+        </div>
+        <div class="contact pb-5" id="contact">
+            <div class="container text-center">
+                <h2 class="about-h1">contact<span style="color: rgb(57, 211, 57);"> us</span></h2>
+                <p class="about-p">You can reach us via <span style="color: rgb(57, 211, 57);">email</span> and  <span style="color: rgb(57, 211, 57);">social media</span>.</p>
+                <!-- Email -->
+                <p class="about-p"><strong>Email:</strong> <a href="mailto:satya07thota@gmail.com"  style="color: rgb(57, 211, 57); text-decoration: none;">satya07thota@gmail.com</a></p>
+        
+                <!-- Social Media Links -->
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://github.com/SatyaaaaSai" target="_blank" rel="noopener noreferrer">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl8zwVyy8wiDibyIOFblqDaR4621S8pcelD1r8meymiQAolc8IPmgZXPvwmEwi50PhFjc&usqp=CAU" alt="Instagram" class="social-icon">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/satya-sai-thota-2b6b7a271
+                        " target="_blank" rel="noopener noreferrer">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://t.me/chinss07" target="_blank" rel="noopener noreferrer">
+                            <img src="https://static-00.iconduck.com/assets.00/telegram-icon-2048x2048-l6ni6sux.png" alt="Telegram" class="social-icon">
+                        </a>
+                    </li>
                 </ul>
-            </nav>
-            <div class="header-text">
-                <p>Aspiring,Software Developer</p>
-                <h1>Hi,I'm <span>Satya Sai</span> <br>From India</h1>
-            </div>
-        </div>
-
-    </div>
-
-<!-- --------------------------------------------About Me Section-------------------------- -->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/user.png" alt="User Image">
-            </div>
-            <div class="about-col-2">
-                <h1>About Me</h1>
-                <p>
-                    Hi! I'm Vamsi, a passionate data analyst with a knack for solving complex problems and providing actionable insights. I enjoy analyzing and cleaning data using Excel and SQL, creating visual dashboards using Microsoft Power BI and QlikView, and managing databases with Microsoft Access. My goal is to help businesses make data-driven decisions to improve their operations and outcomes.
-                </p>
-            </div>
         </div>
     </div>
-</div>
 
     
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 </body>
 </html>
